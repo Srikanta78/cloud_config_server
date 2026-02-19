@@ -1,0 +1,5 @@
+microservice:
+   movie-catelog-service:
+      endpoints:
+         endpoint:http://movie-info-service/movieInfo/getMovies 
+  
