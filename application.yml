@@ -2,5 +2,9 @@ microservice:
    movie-catelog-service:
       endpoints:
          endpoint:
-             uri: http://movie-info-service/movieInfo/getMovies 
-  
+             geturi: http://movie-info-service/movieInfo/getMovies 
+ microservice1:
+   movie-catelog-service:
+      endpoints:
+         endpoint:
+             posturi: http://movie-info-service/movieInfo/getMovies  
