@@ -3,8 +3,9 @@ microservice:
       endpoints:
          endpoint:
              geturi: http://movie-info-service/movieInfo/getMovies 
+             
  microservice1:
    movie-catelog-service:
       endpoints:
          endpoint:
-             posturi: http://movie-info-service/movieInfo/getMovies  
+             posturi: http://movie-info-service/movieInfo/addMovie  
